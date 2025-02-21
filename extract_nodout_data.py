@@ -4,6 +4,7 @@ Date: 02-21-2025
 Description: Extract data from the nodout file and save it to a text file.
 """
 
+import os
 def extract_nodout_field_data(file_path, output_file_path, start_line, line_offset, range_length, field):
     """
     Extracts data for a specified field from a nodout file and returns the extracted data as a list of blocks.
@@ -93,3 +94,27 @@ def extract_nodout_field_data(file_path, output_file_path, start_line, line_offs
         print(f"Error occurred: {e}")
         return None
 
+# if __name__ == "__main__":
+#     # Get the current directory
+#     current_dir = os.path.dirname(os.path.abspath(__file__))
+    
+#     # Define file paths
+#     file_path = os.path.join(current_dir, 'nodout')
+#     output_file_path = os.path.join(current_dir, 'z_disp.txt')
+    
+#     # Set the parameters for extraction
+#     start_line = 68
+#     line_offset = 60
+#     range_length = 54
+#     field = "z_disp"
+    
+#     # Call the extraction function and capture the returned data
+#     data_blocks = extract_nodout_field_data(file_path, output_file_path, start_line, line_offset, range_length, field)
+    
+#     # Debug: Print the returned data blocks
+#     print("Returned data blocks:")
+#     for idx, block in enumerate(data_blocks, start=1):
+#         print(f"Block {idx}:")
+#         for line in block:
+#             print(line)
+#         print("-" * 40)
