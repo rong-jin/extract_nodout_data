@@ -1,7 +1,3 @@
-Below is an example of a GitHub README file for this project:
-
----
-
 # Nodout Field Data Extractor
 
 This project contains a Python script that extracts specific field data from a nodout file with fixed-width formatting. It is designed to process data blocks based on configurable parameters such as starting line, line offset, and block length. The script also writes the extracted data to an output file and returns the data as a list of blocks.
@@ -134,7 +130,3 @@ Contributions are welcome! Feel free to fork the repository and submit pull requ
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-This README provides an overview of the project, details on how to get started, and instructions for using the extraction function. Adjust the repository URL and module import paths as needed for your project structure.
