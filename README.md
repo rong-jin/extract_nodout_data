@@ -18,34 +18,6 @@ This project contains a Python script that extracts specific field data from a n
 - **Debugging:**  
   Includes an example main script to help test and debug the function.
 
-## Getting Started
-
-### Prerequisites
-
-- Python 3.x
-
-- A nodout file in the expected fixed-width format (named `nodout` in this example) should be present in the same directory as the script.
-
-### Installation
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone <repository_url>
-   ```
-
-2. **Navigate to the project directory:**
-
-   ```bash
-   cd <repository_directory>
-   ```
-
-3. *(Optional)* Create and activate a virtual environment:
-
-   ```bash
-   python -m venv env
-   source env/bin/activate  # On Windows: env\Scripts\activate
-   ```
 
 ### Usage
 
@@ -122,11 +94,3 @@ python main.py
 
 - **Output:**  
   The data is written to an output file with blocks separated by blank lines. The function also returns the extracted data as a list of lists, with each sub-list corresponding to one block of extracted data.
-
-## Contributing
-
-Contributions are welcome! Feel free to fork the repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to modify.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
