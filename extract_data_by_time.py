@@ -1,3 +1,9 @@
+"""
+Author: Rong Jin, University of Kentucky
+Date: 02-24-2025
+Description: Extracts data from a file based on time.
+"""
+
 def extract_data_by_time(file_path, node_num, total_time, start_rt_value, rt_step, num_time_steps, n_extract):
     """
     Extracts data from a file based on time.
